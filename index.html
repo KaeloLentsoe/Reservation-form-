@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unpush</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!--Reserve Table Section-->
+<!--Reserve Table Section-->
+<section id="Reserve">
+    <h2 class="reserve-title">RESERVE A TABLE</h2>
+    <div class="booking-form-w3layouts">
+        <form action="#" method="post">
+           <h2 class="sub-heading-agileits">Reservation Form</h2>
+           <div clclearass="main-flex-w3ls-sectns">
+              <div class="field-agileinfo-spc form-w3-agile-text1">
+                 <select class="form-control">
+                    <option>Western Cape</option>
+                    <option value="Lorem Ipsum">Gauteng</option>
+                    <option value="Adipiscing">Eastern Cape</option>
+                 </select>
+              </div>
+              <div class="field-agileinfo-spc form-w3-agile-text2">
+                 <select class="form-control">
+                    <option>Cape Town</option>
+                    <option value="Lorem Ipsum">Sandton</option>
+                    <option value="Adipiscing">Port alfred</option>
+                 </select>
+              </div>
+           </div>
+           <div class="main-flex-w3ls-sectns">
+              <div class="field-agileinfo-spc form-w3-agile-text1">
+                 <select class="form-control">
+                    <option>Takeaway</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    
+                 </select>
+              </div>
+              <div class="field-agileinfo-spc form-w3-agile-text2">
+                 <select class="form-control">
+                    <option>Seat Down</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                 </select>
+              </div>
+           </div>
+           <div class="main-flex-w3ls-sectns">
+              <div class="field-agileinfo-spc form-w3-agile-text1">
+                 <input id="datepicker" name="Text" type="text" placeholder="Reservation Date" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}" required="" class="hasDatepicker">
+              </div>
+              <div class="field-agileinfo-spc form-w3-agile-text2">
+                 <input type="text" id="timepicker" name="Time" class="timepicker form-control hasWickedpicker" placeholder="Reservation Time" value="" onkeypress="return false;">
+              </div>
+           </div>
+          
+           
+           <h3 class="sub-heading-agileits">Personal Details</h3>
+           <div class="main-flex-w3ls-sectns">
+              <div class="field-agileinfo-spc form-w3-agile-text1">
+                 <input type="text" name="Name" placeholder="Full Name" required="">
+              </div>
+              <div class="field-agileinfo-spc form-w3-agile-text2">
+                 <input type="text" name="Phone no" placeholder="Phone Number" required="">
+              </div>
+           </div>
+           <div class="field-agileinfo-spc form-w3-agile-text">
+              <input type="email" name="Email" placeholder="Email" required="">
+           </div>
+           <div class="clear"></div>
+           <input type="submit" value="Submit">
+           <input type="reset" value="Clear Form">
+           <div class="clear"></div>
+        </form>
+     </div>
+</section>  
+<!--End of Reserve Table Section-->
+<!--Contact Section-->
+  <section>
+    <div class="contact">
+        <h1 class="title">CONTACT US</h1>
+        <h2 class="subtitle">We are here to assist you.</h2>
+    </div> 
+
+    <div class="contact-form">
+        <h1 class="title">Type in your query</h1>
+        <h2 class="subtitle">fill in your details below.</h2>
+        <form id="restaurantForm">
+            <input type="text" name="name" placeholder="Your Name" />
+            <input type="email" name="email" placeholder="Your E-mail Address" />
+            <input type="tel" name="phone" placeholder="Your Phone Number" />
+            <textarea name="message" rows="8" placeholder="Your Message"></textarea>
+            <button type="button" class="btn-send" onclick="submitForm()">Get a Call Back</button>
+    </div>
+
+</section>
+</body>
+</html>
