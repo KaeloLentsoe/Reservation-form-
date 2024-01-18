@@ -7,9 +7,7 @@ function submitForm() {
         message: document.forms["restaurantForm"]["message"].value
     };
 
-    // Perform validation if needed
 
-    // Display submitted data (you can replace this with your own logic)
     var message = "Form Submitted:\n\n";
     for (var key in formData) {
         message += key + ": " + formData[key] + "\n";
