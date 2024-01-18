@@ -420,11 +420,12 @@ div, h2, h3, h6, form, label {
 .contact-form {
     max-width: 700px;
     width: 100%;
-    padding: 20px;
+    padding:20px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
+
 }
 
 .title {
@@ -453,6 +454,7 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
+sele
 
 button {
     background-color:  #d2741d;
