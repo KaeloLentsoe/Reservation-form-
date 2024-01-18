@@ -418,7 +418,7 @@ div, h2, h3, h6, form, label {
 }
 
 .contact-form {
-    max-width: 400px;
+    max-width: 700px;
     width: 100%;
     padding: 20px;
     background-color: #fff;
@@ -470,9 +470,12 @@ button:hover {
 
 .map-container {
   text-align: right;
-  margin-top: -400px;
+  margin-top: -450px;
+  padding-left: 500px;
 }
+
 
 .map-container iframe {
   float: right;
 }
+
